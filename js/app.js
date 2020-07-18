@@ -1,12 +1,21 @@
 
 window.onscroll = function() {sideNav()};
 
+var navbar = document.getElementById("side-nav");
+var sticky = navbar.offsetTop;
+
 function sideNav() {
-	if ((document.body.scrollTop > 760) || (document.documentElement.scrollTop > 760)) {
-		document.getElementById("side-nav").className = "active-side-nav"
+	console.log(window.scrollY)
+	if ((window.scrollY > 730) ) {
+		console.log(window.scrollY)
+		document.getElementById("side-nav").classList.add("active-side-nav")
+		document.getElementById("side-nav").classList.remove("inactive-side-nav")
 	}
 	else {
-		document.getElementById("side-nav").className = "inactive-side-nav"
+		document.getElementById("side-nav").classList.add("inactive-side-nav")
+		document.getElementById("side-nav").classList.remove("active-side-nav")
 	}
+
+
 }
 
