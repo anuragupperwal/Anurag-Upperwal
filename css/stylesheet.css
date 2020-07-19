@@ -93,9 +93,10 @@ body {
 
 }*/
 
-.header .col-md-1 {
-	padding: 0px;
-	margin: 0px;
+.header .col-md-1  {
+	padding: 0px 10px;
+	margin: 0px 10px;
+	text-align: center;
 }
 
 .header {
@@ -136,7 +137,7 @@ background-color: #0075a3;
 	text-align: center;
 	color: #fff;
 	font-size: 40px;
-	margin: 60px 0px 30px 0px;
+	margin: 100px 0px 30px 0px;
 }
 
 .about {
@@ -153,7 +154,6 @@ background-color: #0075a3;
 	margin: 80px 0px 0px 40px;
 	border-radius: 200px;
 	border-color: #50cafa;
-	opacity: 1;
 }
 
 /*  fix image opacity issue*/
@@ -172,6 +172,8 @@ background-color: #0075a3;
 	opacity: 0.8;
 	width: 100%;
 	height: 710px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
 }
 .resume-header {
 	padding: 12px 0px 12px 30px;
@@ -277,6 +279,7 @@ background-color: #0075a3;
 	background-color: #fff;
 	opacity: 0.8;
 	width: 100%;
+	border-radius: 20px;
 }
 
 
@@ -284,7 +287,21 @@ background-color: #0075a3;
 	background-color: #50cafa;
 	opacity: 0.8;
 	width: 100%;
-	height: 600px;
+	height: 350px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	color: #FFF;
+	font-size: 17px;
+	font-weight: bold;
+}
+.skill-left {
+	margin: 30px;
+}
+.skill-left-1 {
+}
+
+.skill-right {
+	margin: 30px;
 }
 
 
