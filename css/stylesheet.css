@@ -1,27 +1,20 @@
 
-html {
-	/*background-image: linear-gradient(to right,  #4debff, #676f70 );*/
-}
 
 body {
 	margin: 0px;
 	padding: 0px;
 	width: 100vw; 
 	height: 100vh;
-	/*background-image: url("../images/unnamed.jpg");	*/
 	background-image: url("../images/Mountain-Pictures-Wallpapers-021.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	/*background-image: linear-gradient(to right,  #4debff, #676f70 );*/
+	
 }
-/* 	fix gradient issue*/
-
 .main {
 	height: 100vh;
 	width: 100vw;
-	background-image: linear-gradient(to right,  #4debff, #676f70 );
 	z-index: 90;
 }
 
@@ -47,25 +40,17 @@ body {
 	text-decoration: none;
 	padding: 22px 17px 22px 17px;
 	line-height: 4;
-	/*margin: 13px 0px;*/
 }
 #side-nav a:hover {
-	background-color: #0075a3;
+	background-color: #439df7;
 	color: #000;
 }
 #side-nav a:active {
 	background-color: #fff;
 }
-/*
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 11%;
-}
-*/
+
 
 .fixed-bg {
-	/*background-image: url("../images/unnamed.jpg");	*/
 	background-image: url("../images/Mountain-Pictures-Wallpapers-021.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -83,19 +68,6 @@ body {
 	color: #000;
 }
 
-/*.background-image {
-	position: fixed;
-	background-color: darkgrey;
-	overflow-x: hidden;
-	z-index: -99;
-}
-
-.background-image img{
-	width: 100vw;
-	height: 100vh;
-	opacity: 0.7;
-
-}*/
 
 .header .col-md-1  {
 	padding: 0px 10px;
@@ -116,7 +88,7 @@ body {
 	font-size: 19px;
 }
 .header a:hover {
-background-color: #0075a3;
+background-color: #439df7;
 }
 
 .header .row {
@@ -160,7 +132,6 @@ background-color: #0075a3;
 	border-color: #50cafa;
 }
 
-/*  fix image opacity issue*/
 
 .about-right {
 	margin: 70px 20px 0px 0px;
@@ -333,7 +304,6 @@ background-color: #0075a3;
 
 .contact-1 {
 	margin: 79px 0px 0px 52px;
-	/*background-color: #4d4dff;*/
 	color: #fff;
 }
 .contact-1 div {
@@ -345,7 +315,6 @@ background-color: #0075a3;
 }
 
 .contact-2 {
-	/*background-color: #4d4dff;*/
 	margin: 60px 0px 0px 0px;
 	width: 56%;
 }
